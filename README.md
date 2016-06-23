@@ -39,30 +39,3 @@ $ newrepo coolproject
 ```
 
 The `newrepo` script alias automatically clones this repo, renames it based on the repo name you provided and uploads the new project to your github account. The project will initially be public - but you can change that if you like.  Lastly, the script launches your default web browser to show your newly created repo on github.
-
-> {delete above from your newly created repo and edit the entries below}
-
----
-
-### Value proposition
-* point 1
-* point 2
-* point 3
-
-### Installation
-
-### Usage
-
-### Tests
-This project includes mocha chaijs tests in the `specs` folder.
-Make sure to install mocha globally.
-
-```shell
-$ npm install mocha -g
-```
-
-Run test suite:
-
-```javascript
-$ npm test
-```
