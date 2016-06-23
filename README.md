@@ -7,23 +7,14 @@ To leverage this template:
 First create a new empty repo on github.
 
 * https://github.com/new  
-  * for example: myproject
+  * for example: `myproject`
 
 ```shell
 $ git clone https://github.com/cjus/js-project-template.git
 $ mv js-project-template myproject
 $ cd myproject
-$ rm -rf .git
-$ git init
-$ git remote add origin https://github.com/cjus/myproject.git
-$ git add .
-$ git commit -m "Initial commit"
-$ git push -u origin master
+$ ./setup.sh
 ```
-
-Other ways:
-* Use [Github's Repo Import Tool](https://github.com/new/import) and enter `https://github.com/cjus/js-project-template` in the old repository’s clone field.  
-* [Duplicating a repository](https://help.github.com/articles/duplicating-a-repository)
 
 ### Value proposition
 * point 1
