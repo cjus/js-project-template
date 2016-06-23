@@ -9,7 +9,7 @@ Edit your .bash_profile and export the following keys:
 
 ```shell
 export githubUser='cjus'
-export githubToken='cd70eb5a4026f1239b337012c255e7aed7686cad'
+export githubToken='fake-cd70eb5a4026f1239b337012c255e7aed7686cad'
 newrepo() {
   git clone https://github.com/cjus/js-project-template.git
   mv js-project-template $1
@@ -18,8 +18,8 @@ newrepo() {
 }
 ```
 
-The token shown above is your personal access token from github (the one shown above is fake!).
-You can create your own token here: https://github.com/settings/tokens/new
+The token shown above should be your own personal access token from github. You can create your own token here: https://github.com/settings/tokens/new
+
 After you edit your .bash_profile you can reload it in your shell using:
 
 ```
