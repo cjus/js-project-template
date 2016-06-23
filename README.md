@@ -5,9 +5,15 @@ So I created this project to make creating new repos super easy.
 ### Using this template
 To leverage this template first do the following one-time setup:
 
-Edit your .bash_profile and export the following keys:
+Edit your `.bash_profile` and export the following keys:
 
 ```shell
+$ vi ~/.bash.profile
+```
+
+add these entries:
+
+```
 export githubUser='cjus'
 export githubToken='fake-cd70eb5a4026f1239b337012c255e7aed7686cad'
 newrepo() {
