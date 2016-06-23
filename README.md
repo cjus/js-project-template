@@ -2,7 +2,12 @@
 Basic starting point for my JS projects
 
 ### Using this template
-A few ways to leverage this template:
+To leverage this template:
+
+First create a new empty repo on github.
+
+* https://github.com/new  
+  * for example: myproject
 
 ```shell
 $ git clone https://github.com/cjus/js-project-template.git
