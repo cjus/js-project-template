@@ -5,7 +5,7 @@ So I created this project to make creating new repos super easy.
 ### Using this template
 To leverage this template first do the following one-time setup:
 
-Edit your `.bash_profile` and export the following keys:
+Edit your `.bash_profile`:
 
 ```shell
 $ vi ~/.bash.profile
