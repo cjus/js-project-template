@@ -28,13 +28,15 @@ $ cd myproject
 Then run the script:
 
 ```shell
-$ ./setup.sh projectName
+$ ./setup.sh myproject
 ```
 
 > Note the setup.sh shell script above assumes that the folder name is the same as your new github project name. And the last command in the script opens the new repo in a web browser on a Mac. 
 
----
 > {delete above from your newly created repo and edit the entries below}
+
+---
+
 ### Value proposition
 * point 1
 * point 2
