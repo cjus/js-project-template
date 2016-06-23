@@ -13,8 +13,19 @@ First create a new empty repo on github.
 $ git clone https://github.com/cjus/js-project-template.git
 $ mv js-project-template myproject
 $ cd myproject
+```
+
+You'll find a setup.sh file in the folder. Open it in your editor of choice and edit the github username to match yours.
+
+Then run the script:
+
+```shell
 $ ./setup.sh
 ```
+
+> Note the setup.sh shell script above assumes that the folder name is the same as your new github project name. And the last command in the script opens the new repo in a web browser on a Mac. 
+
+---
 
 ### Value proposition
 * point 1
