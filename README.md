@@ -28,7 +28,7 @@ $ cd myproject
 Then run the script:
 
 ```shell
-$ ./setup.sh myproject
+$ ./setup.sh
 ```
 
 > Note the setup.sh shell script above assumes that the folder name is the same as your new github project name. And the last command in the script opens the new repo in a web browser on a Mac. 
