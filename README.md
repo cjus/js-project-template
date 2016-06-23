@@ -15,6 +15,15 @@ $ mv js-project-template myproject
 $ cd myproject
 ```
 
+Export your github username and personal access token:
+
+```shell
+$ githubUser='cjus'
+$ export githubUser 
+$ githubToken='cd70eb5a4026f1239b337012c255e7aed7686cad'
+$ export githubToken
+```
+
 You'll find a setup.sh file in the folder. Open it in your editor of choice and edit the github username to match yours.
 
 Then run the script:
