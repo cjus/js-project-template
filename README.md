@@ -9,6 +9,12 @@ Edit your .bash_profile and export the following keys:
 ```
 export githubUser='cjus'
 export githubToken='cd70eb5a4026f1239b337012c255e7aed7686cad'
+newrepo() {
+  git clone https://github.com/cjus/js-project-template.git
+  mv js-project-template $1
+  cd $1
+  ./setup.sh
+}
 ```
 The token above is your personal access token from github. You can get one here: https://github.com/settings/tokens/new
 After you edit your .bash_profile you can reload it in your shell using:
@@ -17,21 +23,11 @@ After you edit your .bash_profile you can reload it in your shell using:
 $ source ~/.bash_profile
 ```
 
-Ok, so from now on you can simply do the following:
+Ok, so from now on you can simply do the following to create a new repo based on this template.
 
 ```shell
-$ git clone https://github.com/cjus/js-project-template.git
-$ mv js-project-template myproject
-$ cd myproject
+$ newrepo coolproject
 ```
-
-Then run the script:
-
-```shell
-$ ./setup.sh
-```
-
-> Note the setup.sh shell script above assumes that the folder name is the same as your new github project name. And the last command in the script opens the new repo in a web browser on a Mac. 
 
 > {delete above from your newly created repo and edit the entries below}
 
